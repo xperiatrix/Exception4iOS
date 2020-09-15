@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00D00DD0D324D6C7FEAD83B2E31A80B0 /* SCLSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E88D6FCD9E3E149D14F08A36470B7D4 /* SCLSwitchView.m */; };
+		190F5C4D48FC50AA65635A40CA9C6210 /* SCLTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = FFF5833242437ADDFAD97906A616A33D /* SCLTextView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1B29AA832F64FCA0EB8846FE97998220 /* SCLAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2DAA788FA00F7DED143CFD89CD7B02 /* SCLAlertView.m */; };
+		1C0B18E7C31B28951A76D4973B9ABB00 /* SCLAlertViewResponder.h in Headers */ = {isa = PBXBuildFile; fileRef = B394A0A33EDACC7B6E5E2AEEDF621D90 /* SCLAlertViewResponder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		211F7BA9232BDE8701365F2CA34B5F4C /* Pods-Exception4iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E741FA046F77092533BEF90F0449096 /* Pods-Exception4iOS-dummy.m */; };
+		40CAAB1B5B771A14F6DA649B6A2228F4 /* SCLAlertView-Objective-C-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1063297DD4A4CEB3ED7E3F0F33D730B0 /* SCLAlertView-Objective-C-dummy.m */; };
+		43CC7EF0888F2BAF8E208C86359062B8 /* SCLButton.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD60D5EF0E46562BCD15A13CBFDE599 /* SCLButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5164F4E6FDF4C407C86423B1B1D9A91D /* SCLSwitchView.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1E037079765A850BA25FAA4CCBDA6A /* SCLSwitchView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		56D04193E26709F197AAC766D4E4AC59 /* SCLButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EBC506D4DFDFC4C539B2A761E11FDC /* SCLButton.m */; };
+		6CD2CC3AE781484D25154036EC7BEE73 /* SCLTimerDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = C56F2A2EA67179E58D4A83F8868A7C05 /* SCLTimerDisplay.m */; };
+		75F5DDC2D8DE7F61371075118DBEE462 /* SCLTimerDisplay.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D06CD3ACF48C68A8434C6A66EE23FB8 /* SCLTimerDisplay.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7C08ACD92393381CEC1FC6BCF8C6EDCE /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 94E0467F63C75A56A83A5B63C7FF8282 /* UIImage+ImageEffects.m */; };
+		7EFA5ED8CFD225ADEC6A9D7F1208A528 /* UIImage+ImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = D4D612C8256AAC200D1E8776972F6981 /* UIImage+ImageEffects.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A395C7747E835E988423F951B2879C6F /* SCLAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = F40499E1259C0E08645E96551F15AE12 /* SCLAlertView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BFFE351ABE1BF9282AEB09FE6742B9CB /* SCLTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 646A0429C9AC7E1B30F7AC717EC976AD /* SCLTextView.m */; };
+		C35590B44B3A29D6690CF233AABECB1E /* SCLMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 69A6E135C2A5DC0796D34849ACFD3C14 /* SCLMacros.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E7BA2CECD043D51DB670424FA01A84AB /* SCLAlertViewStyleKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AC8F2660E3EFC2BC9D32F1801F81107 /* SCLAlertViewStyleKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EAF1D101C3856A8D571DA630BDF859A6 /* SCLAlertViewResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F8EDE2342836E35B3BDBE983B1C74F /* SCLAlertViewResponder.m */; };
+		F6792EC31D9428E8AF05473F2CB5061C /* SCLAlertViewStyleKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E68771880686A46FC544A138EAB1D069 /* SCLAlertViewStyleKit.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2B1150BD1E564A7F76C1EFD9888AF22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9F69C3DD7C80C8F2FE02F0F33AFCDC7;
+			remoteInfo = "SCLAlertView-Objective-C";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1063297DD4A4CEB3ED7E3F0F33D730B0 /* SCLAlertView-Objective-C-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SCLAlertView-Objective-C-dummy.m"; sourceTree = "<group>"; };
+		2E88D6FCD9E3E149D14F08A36470B7D4 /* SCLSwitchView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCLSwitchView.m; path = SCLAlertView/SCLSwitchView.m; sourceTree = "<group>"; };
+		41F8EDE2342836E35B3BDBE983B1C74F /* SCLAlertViewResponder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCLAlertViewResponder.m; path = SCLAlertView/SCLAlertViewResponder.m; sourceTree = "<group>"; };
+		48EBC506D4DFDFC4C539B2A761E11FDC /* SCLButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCLButton.m; path = SCLAlertView/SCLButton.m; sourceTree = "<group>"; };
+		4E741FA046F77092533BEF90F0449096 /* Pods-Exception4iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Exception4iOS-dummy.m"; sourceTree = "<group>"; };
+		5AC8F2660E3EFC2BC9D32F1801F81107 /* SCLAlertViewStyleKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCLAlertViewStyleKit.h; path = SCLAlertView/SCLAlertViewStyleKit.h; sourceTree = "<group>"; };
+		646A0429C9AC7E1B30F7AC717EC976AD /* SCLTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCLTextView.m; path = SCLAlertView/SCLTextView.m; sourceTree = "<group>"; };
+		66BB2C080B0BF8DAA169101F99484994 /* SCLAlertView-Objective-C-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCLAlertView-Objective-C-prefix.pch"; sourceTree = "<group>"; };
+		675A8C5B3205D3195FD1CAB7A85ACA9E /* SCLAlertView-Objective-C.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SCLAlertView-Objective-C.debug.xcconfig"; sourceTree = "<group>"; };
+		69A6E135C2A5DC0796D34849ACFD3C14 /* SCLMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCLMacros.h; path = SCLAlertView/SCLMacros.h; sourceTree = "<group>"; };
+		6C2DAA788FA00F7DED143CFD89CD7B02 /* SCLAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCLAlertView.m; path = SCLAlertView/SCLAlertView.m; sourceTree = "<group>"; };
+		7D06CD3ACF48C68A8434C6A66EE23FB8 /* SCLTimerDisplay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCLTimerDisplay.h; path = SCLAlertView/SCLTimerDisplay.h; sourceTree = "<group>"; };
+		876976925D108DB702C7F685DC0532AC /* Pods-Exception4iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Exception4iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		94E0467F63C75A56A83A5B63C7FF8282 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ImageEffects.m"; path = "SCLAlertView/UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AAD60D5EF0E46562BCD15A13CBFDE599 /* SCLButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCLButton.h; path = SCLAlertView/SCLButton.h; sourceTree = "<group>"; };
+		AE1198A8A6C064BFFE17224BC357DBBD /* SCLAlertView-Objective-C.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SCLAlertView-Objective-C.release.xcconfig"; sourceTree = "<group>"; };
+		AE1E037079765A850BA25FAA4CCBDA6A /* SCLSwitchView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCLSwitchView.h; path = SCLAlertView/SCLSwitchView.h; sourceTree = "<group>"; };
+		B394A0A33EDACC7B6E5E2AEEDF621D90 /* SCLAlertViewResponder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCLAlertViewResponder.h; path = SCLAlertView/SCLAlertViewResponder.h; sourceTree = "<group>"; };
+		C50F15D07C21F4A2DED73B1F3ECBB898 /* libSCLAlertView-Objective-C.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libSCLAlertView-Objective-C.a"; path = "libSCLAlertView-Objective-C.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C56F2A2EA67179E58D4A83F8868A7C05 /* SCLTimerDisplay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCLTimerDisplay.m; path = SCLAlertView/SCLTimerDisplay.m; sourceTree = "<group>"; };
+		D021526577CEE2C5046286F250CFB827 /* libPods-Exception4iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Exception4iOS.a"; path = "libPods-Exception4iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4D612C8256AAC200D1E8776972F6981 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ImageEffects.h"; path = "SCLAlertView/UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		D6D976101296A343BFE4B8F4D85D49B9 /* Pods-Exception4iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Exception4iOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		E68771880686A46FC544A138EAB1D069 /* SCLAlertViewStyleKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCLAlertViewStyleKit.m; path = SCLAlertView/SCLAlertViewStyleKit.m; sourceTree = "<group>"; };
+		F40499E1259C0E08645E96551F15AE12 /* SCLAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCLAlertView.h; path = SCLAlertView/SCLAlertView.h; sourceTree = "<group>"; };
+		F77249DED645D3078FD637025F13D754 /* Pods-Exception4iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Exception4iOS.release.xcconfig"; sourceTree = "<group>"; };
+		F8D87CD8F8F3502B5B92E1B87B998D63 /* Pods-Exception4iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Exception4iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		FFF5833242437ADDFAD97906A616A33D /* SCLTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCLTextView.h; path = SCLAlertView/SCLTextView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBD09CF698C1ADFBA867D72D5C880BA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6B6C99BA5F3C13580C3D3FCB2BD451C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		234BF79A4055652D280A83C4E8180DCF /* Pods-Exception4iOS */ = {
+			isa = PBXGroup;
+			children = (
+				876976925D108DB702C7F685DC0532AC /* Pods-Exception4iOS-acknowledgements.markdown */,
+				D6D976101296A343BFE4B8F4D85D49B9 /* Pods-Exception4iOS-acknowledgements.plist */,
+				4E741FA046F77092533BEF90F0449096 /* Pods-Exception4iOS-dummy.m */,
+				F8D87CD8F8F3502B5B92E1B87B998D63 /* Pods-Exception4iOS.debug.xcconfig */,
+				F77249DED645D3078FD637025F13D754 /* Pods-Exception4iOS.release.xcconfig */,
+			);
+			name = "Pods-Exception4iOS";
+			path = "Target Support Files/Pods-Exception4iOS";
+			sourceTree = "<group>";
+		};
+		65FA9BD7A15E5BFAD8385358884DBFA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D021526577CEE2C5046286F250CFB827 /* libPods-Exception4iOS.a */,
+				C50F15D07C21F4A2DED73B1F3ECBB898 /* libSCLAlertView-Objective-C.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		706BC1A4095C29F3EF99B61DB863C861 /* SCLAlertView-Objective-C */ = {
+			isa = PBXGroup;
+			children = (
+				F40499E1259C0E08645E96551F15AE12 /* SCLAlertView.h */,
+				6C2DAA788FA00F7DED143CFD89CD7B02 /* SCLAlertView.m */,
+				B394A0A33EDACC7B6E5E2AEEDF621D90 /* SCLAlertViewResponder.h */,
+				41F8EDE2342836E35B3BDBE983B1C74F /* SCLAlertViewResponder.m */,
+				5AC8F2660E3EFC2BC9D32F1801F81107 /* SCLAlertViewStyleKit.h */,
+				E68771880686A46FC544A138EAB1D069 /* SCLAlertViewStyleKit.m */,
+				AAD60D5EF0E46562BCD15A13CBFDE599 /* SCLButton.h */,
+				48EBC506D4DFDFC4C539B2A761E11FDC /* SCLButton.m */,
+				69A6E135C2A5DC0796D34849ACFD3C14 /* SCLMacros.h */,
+				AE1E037079765A850BA25FAA4CCBDA6A /* SCLSwitchView.h */,
+				2E88D6FCD9E3E149D14F08A36470B7D4 /* SCLSwitchView.m */,
+				FFF5833242437ADDFAD97906A616A33D /* SCLTextView.h */,
+				646A0429C9AC7E1B30F7AC717EC976AD /* SCLTextView.m */,
+				7D06CD3ACF48C68A8434C6A66EE23FB8 /* SCLTimerDisplay.h */,
+				C56F2A2EA67179E58D4A83F8868A7C05 /* SCLTimerDisplay.m */,
+				D4D612C8256AAC200D1E8776972F6981 /* UIImage+ImageEffects.h */,
+				94E0467F63C75A56A83A5B63C7FF8282 /* UIImage+ImageEffects.m */,
+				80C9941C7FD1FE6C8DA83EEE0E42D60F /* Support Files */,
+			);
+			name = "SCLAlertView-Objective-C";
+			path = "SCLAlertView-Objective-C";
+			sourceTree = "<group>";
+		};
+		80C9941C7FD1FE6C8DA83EEE0E42D60F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1063297DD4A4CEB3ED7E3F0F33D730B0 /* SCLAlertView-Objective-C-dummy.m */,
+				66BB2C080B0BF8DAA169101F99484994 /* SCLAlertView-Objective-C-prefix.pch */,
+				675A8C5B3205D3195FD1CAB7A85ACA9E /* SCLAlertView-Objective-C.debug.xcconfig */,
+				AE1198A8A6C064BFFE17224BC357DBBD /* SCLAlertView-Objective-C.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SCLAlertView-Objective-C";
+			sourceTree = "<group>";
+		};
+		AAE6E37B16955219D4E6E80FB01F9985 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				706BC1A4095C29F3EF99B61DB863C861 /* SCLAlertView-Objective-C */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AEF8E540204BBAF99D2AC67F1C39C041 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				234BF79A4055652D280A83C4E8180DCF /* Pods-Exception4iOS */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				AAE6E37B16955219D4E6E80FB01F9985 /* Pods */,
+				65FA9BD7A15E5BFAD8385358884DBFA3 /* Products */,
+				AEF8E540204BBAF99D2AC67F1C39C041 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		51427AB87750DE257D015DEEF3EAD0D1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D754F9E9223057A67B0EE9C4F3A12566 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A395C7747E835E988423F951B2879C6F /* SCLAlertView.h in Headers */,
+				1C0B18E7C31B28951A76D4973B9ABB00 /* SCLAlertViewResponder.h in Headers */,
+				E7BA2CECD043D51DB670424FA01A84AB /* SCLAlertViewStyleKit.h in Headers */,
+				43CC7EF0888F2BAF8E208C86359062B8 /* SCLButton.h in Headers */,
+				C35590B44B3A29D6690CF233AABECB1E /* SCLMacros.h in Headers */,
+				5164F4E6FDF4C407C86423B1B1D9A91D /* SCLSwitchView.h in Headers */,
+				190F5C4D48FC50AA65635A40CA9C6210 /* SCLTextView.h in Headers */,
+				75F5DDC2D8DE7F61371075118DBEE462 /* SCLTimerDisplay.h in Headers */,
+				7EFA5ED8CFD225ADEC6A9D7F1208A528 /* UIImage+ImageEffects.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8BB6F6B91E5CCEB126F7967E5064330C /* Pods-Exception4iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6C75B1FD109B74A2A11107C43B405FC /* Build configuration list for PBXNativeTarget "Pods-Exception4iOS" */;
+			buildPhases = (
+				51427AB87750DE257D015DEEF3EAD0D1 /* Headers */,
+				FB48E02D0E97245655999E673975B964 /* Sources */,
+				E6B6C99BA5F3C13580C3D3FCB2BD451C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17670DF5B2467B48C9C303BA0A57A04C /* PBXTargetDependency */,
+			);
+			name = "Pods-Exception4iOS";
+			productName = "Pods-Exception4iOS";
+			productReference = D021526577CEE2C5046286F250CFB827 /* libPods-Exception4iOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F9F69C3DD7C80C8F2FE02F0F33AFCDC7 /* SCLAlertView-Objective-C */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 464932E7962E2AE29384D223976D06EF /* Build configuration list for PBXNativeTarget "SCLAlertView-Objective-C" */;
+			buildPhases = (
+				D754F9E9223057A67B0EE9C4F3A12566 /* Headers */,
+				B29C72F218EFF462F469FA0930D27640 /* Sources */,
+				CBD09CF698C1ADFBA867D72D5C880BA7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SCLAlertView-Objective-C";
+			productName = "SCLAlertView-Objective-C";
+			productReference = C50F15D07C21F4A2DED73B1F3ECBB898 /* libSCLAlertView-Objective-C.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 65FA9BD7A15E5BFAD8385358884DBFA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BB6F6B91E5CCEB126F7967E5064330C /* Pods-Exception4iOS */,
+				F9F69C3DD7C80C8F2FE02F0F33AFCDC7 /* SCLAlertView-Objective-C */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B29C72F218EFF462F469FA0930D27640 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40CAAB1B5B771A14F6DA649B6A2228F4 /* SCLAlertView-Objective-C-dummy.m in Sources */,
+				1B29AA832F64FCA0EB8846FE97998220 /* SCLAlertView.m in Sources */,
+				EAF1D101C3856A8D571DA630BDF859A6 /* SCLAlertViewResponder.m in Sources */,
+				F6792EC31D9428E8AF05473F2CB5061C /* SCLAlertViewStyleKit.m in Sources */,
+				56D04193E26709F197AAC766D4E4AC59 /* SCLButton.m in Sources */,
+				00D00DD0D324D6C7FEAD83B2E31A80B0 /* SCLSwitchView.m in Sources */,
+				BFFE351ABE1BF9282AEB09FE6742B9CB /* SCLTextView.m in Sources */,
+				6CD2CC3AE781484D25154036EC7BEE73 /* SCLTimerDisplay.m in Sources */,
+				7C08ACD92393381CEC1FC6BCF8C6EDCE /* UIImage+ImageEffects.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB48E02D0E97245655999E673975B964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211F7BA9232BDE8701365F2CA34B5F4C /* Pods-Exception4iOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17670DF5B2467B48C9C303BA0A57A04C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SCLAlertView-Objective-C";
+			target = F9F69C3DD7C80C8F2FE02F0F33AFCDC7 /* SCLAlertView-Objective-C */;
+			targetProxy = C2B1150BD1E564A7F76C1EFD9888AF22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E565C956C0679C5E8C1BF84509D041C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE1198A8A6C064BFFE17224BC357DBBD /* SCLAlertView-Objective-C.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SCLAlertView-Objective-C/SCLAlertView-Objective-C-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SCLAlertView_Objective_C;
+				PRODUCT_NAME = "SCLAlertView-Objective-C";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		713292E7C640F7491BA366300E2572B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8D87CD8F8F3502B5B92E1B87B998D63 /* Pods-Exception4iOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C557C5AFED2016E708D07330D4A46B05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F77249DED645D3078FD637025F13D754 /* Pods-Exception4iOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3E22704B4B59C8F64B1FA603FAB7C2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 675A8C5B3205D3195FD1CAB7A85ACA9E /* SCLAlertView-Objective-C.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SCLAlertView-Objective-C/SCLAlertView-Objective-C-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SCLAlertView_Objective_C;
+				PRODUCT_NAME = "SCLAlertView-Objective-C";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		464932E7962E2AE29384D223976D06EF /* Build configuration list for PBXNativeTarget "SCLAlertView-Objective-C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E22704B4B59C8F64B1FA603FAB7C2F /* Debug */,
+				0E565C956C0679C5E8C1BF84509D041C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6C75B1FD109B74A2A11107C43B405FC /* Build configuration list for PBXNativeTarget "Pods-Exception4iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				713292E7C640F7491BA366300E2572B0 /* Debug */,
+				C557C5AFED2016E708D07330D4A46B05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

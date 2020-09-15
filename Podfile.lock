@@ -1,0 +1,16 @@
+PODS:
+  - SCLAlertView-Objective-C (1.1.6)
+
+DEPENDENCIES:
+  - SCLAlertView-Objective-C
+
+SPEC REPOS:
+  trunk:
+    - SCLAlertView-Objective-C
+
+SPEC CHECKSUMS:
+  SCLAlertView-Objective-C: 2bb9be204bffaf24762a0e33fe6ca9645819b3b7
+
+PODFILE CHECKSUM: 6853d5f72a6f41a422c19ba76ffc61236b7f293a
+
+COCOAPODS: 1.9.3

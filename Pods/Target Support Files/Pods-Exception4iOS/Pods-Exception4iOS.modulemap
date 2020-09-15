@@ -1,0 +1,6 @@
+framework module Pods_Exception4iOS {
+  umbrella header "Pods-Exception4iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
